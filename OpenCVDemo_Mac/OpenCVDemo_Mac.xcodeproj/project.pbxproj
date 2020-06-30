@@ -102,6 +102,15 @@
 		371ED56524AB1C4300CBE2B5 /* OpenCVDemo_Mac */ = {
 			isa = PBXGroup;
 			children = (
+				374720C624AB712A00A424EC /* OpenCV */,
+				371ED56624AB1C4300CBE2B5 /* main.cpp */,
+			);
+			path = OpenCVDemo_Mac;
+			sourceTree = "<group>";
+		};
+		374720C624AB712A00A424EC /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
 				374F03DD24AB3B240056003B /* libopencv_calib3d.4.3.0.dylib */,
 				374F03E224AB3B240056003B /* libopencv_core.4.3.0.dylib */,
 				374F03DA24AB3B230056003B /* libopencv_dnn.4.3.0.dylib */,
@@ -117,9 +126,8 @@
 				374F03E724AB3B250056003B /* libopencv_stitching.4.3.0.dylib */,
 				374F03D924AB3B230056003B /* libopencv_video.4.3.0.dylib */,
 				374F03E024AB3B240056003B /* libopencv_videoio.4.3.0.dylib */,
-				371ED56624AB1C4300CBE2B5 /* main.cpp */,
 			);
-			path = OpenCVDemo_Mac;
+			path = OpenCV;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
